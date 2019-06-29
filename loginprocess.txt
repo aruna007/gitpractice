@@ -1,0 +1,30 @@
+Login into server
+------------------
+-->sudo su -
+-->cd /etc/ssh/
+-->vi sshd_config
+   PasswordAuthentication Yes
+   PermitrootLogin yes
+   :wq!
+
+-->systemctl restart sshd
+-->Set Password to users
+   
+   #passwd root
+   #passwd ubuntu
+
+-->apt-get update
+-->Check that git is installed or not
+   # git --version
+-->install the git
+  #apt-get install git-core
+-->git config --global user.name "aruna007"
+-->git config --global user.email "aruna.glori@gmail.com"
+-->To see the configuration of git
+  #git config --list
+
+-->mkdir git_repo
+-->cd git_repo
+--> git clone git clone https://github.com/aruna007/gitpractice.git
+--> cd gitpratice
+
