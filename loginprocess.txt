@@ -27,4 +27,7 @@ Login into server
 -->cd git_repo
 --> git clone git clone https://github.com/aruna007/gitpractice.git
 --> cd gitpratice
-
+-->vim loginprocess.txt
+-->git add loginprocess.txt
+-->git commit -am "intial commit of loginprocess.txt"
+-->git push origin master
